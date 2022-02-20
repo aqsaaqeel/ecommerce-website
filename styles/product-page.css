@@ -48,52 +48,9 @@
     display: block;
 }
 
-.logo{
-    font-size: 2.5rem;
-    margin: 1.5rem;
-    margin-left: 2rem;
-}
-.nav-input{
-    min-width: 6rem;
-    font-size: 2rem;
-}
-.menu-items{
-    display: flex;
-}
-.menu-items .nav-ul{
-    margin: 0;
-    margin-right: 1rem;
-    padding: 0;
-    display: flex;
-}
-.menu-items .list-item{
-    list-style: none;
-}
-
-.menu-items .list-item .menu-link {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 2rem;
-    margin: 1rem;
-    display: block;
-}
-
-
-
-
 .container{
     position: relative;
     display: flex;
-}
-
-.container .navigation
-{
-    position : relative;
-    width : 250px;
-    height: 500px;
-    background: white;
-    border-radius: 10px;
-    overflow:hidden;
 }
 
 .container .navigation ul{
@@ -102,11 +59,7 @@
     left: 0;
     width: 100%;
 }
-.container .navigation ul li{
-    position: relative;
-    list-style: none;
-    width: 100%;
-}
+
 
 .buttons{
     padding-bottom: 1rem;
@@ -117,7 +70,7 @@
 .button{
     padding: 1rem 7rem;
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -128,21 +81,16 @@
     text-decoration: none;
 }
 .button-secondary{
-    background-color: #F5F5F5;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
 }
 .button:hover{
-    background-color: white;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
 }
 .button-secondary:hover{
     background-color: var(--primary-color);
     color: var(--secondary-color);
-}
-
-
-.container{
-    position: relative;
 }
 
 .container .navigation
@@ -332,7 +280,7 @@
     justify-content: flex-end;
 }
 .fa-heart{
-    color: red;
+    color: var(--red-color);
 }
 .photo-card-container .basic-card-container{
     position: relative;
