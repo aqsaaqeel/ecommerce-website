@@ -1,8 +1,6 @@
 @import url(/styles/reset.css);
 @import url(/styles/product-page.css);
 
-
-
 .container{
     position: relative;
     display: flex;
