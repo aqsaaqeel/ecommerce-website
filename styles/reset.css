@@ -17,3 +17,9 @@ body{
     width: 100%;
     background-color: var(--secondary-color);
 }
+
+#my-wishlist-heading{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
