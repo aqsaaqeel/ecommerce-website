@@ -1,5 +1,7 @@
 @import url(/styles/reset.css);
 @import url(/styles/product-page.css);
+@import url(/styles/style.css);
+@import url(/styles/login-signup.css);
 
 .container{
     position: relative;
